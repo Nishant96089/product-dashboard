@@ -21,7 +21,7 @@ const App = () => {
   const [sortBy, setSortBy] = useState("price-asc");
 
   useEffect(() => {
-    axios
+     axios               //  using a CORS proxy as a temporary workaround
       .get("https://cors-anywhere.herokuapp.com/https://cdn.drcode.ai/interview-materials/products.json")
       .then((response) => {
         const productsData = response.data.products;
