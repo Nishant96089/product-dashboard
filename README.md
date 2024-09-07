@@ -6,7 +6,7 @@ The **Product Dashboard** is a React-based web application designed to help user
 
 👉 Live Demo: <a href='https://product-dashboard-bay.vercel.app/'>Product Dashboard</a>
 
-![Product Dashboard](https://example.com/path/to/your/image.png)
+![Product Dashboard](https://github.com/Nishant96089/product-dashboard/blob/main/src/assets/Screenshot%202024-09-07%20145800.png)
 
 ## Features
 
