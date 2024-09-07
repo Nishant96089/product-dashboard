@@ -22,7 +22,7 @@ const App = () => {
 
   useEffect(() => {
     axios
-      .get("/api/interview-materials/products.json") // Using the proxy path here from vite.config.js
+      .get("/api/interview-materials/products.json") // Proxy path from Vite config
       .then((response) => {
         const productsData = response.data.products;
         const productsArray = Object.keys(productsData).map((key) => ({
