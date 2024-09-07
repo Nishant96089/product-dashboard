@@ -29,5 +29,5 @@ Follow these steps to set up the project locally:
 1. **Clone the Repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Nishant96089/product-dashboard
    cd product-dashboard

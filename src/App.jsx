@@ -22,7 +22,7 @@ const App = () => {
 
   useEffect(() => {
     axios
-      .get("/api/interview-materials/products.json") // Proxy path from Vite config
+      .get("https://cdn.drcode.ai/interview-materials/products.json")
       .then((response) => {
         const productsData = response.data.products;
         const productsArray = Object.keys(productsData).map((key) => ({
