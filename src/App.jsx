@@ -22,7 +22,7 @@ const App = () => {
 
   useEffect(() => {
     axios
-      .get("https://cdn.drcode.ai/interview-materials/products.json")
+      .get("https://cors-anywhere.herokuapp.com/https://cdn.drcode.ai/interview-materials/products.json")
       .then((response) => {
         const productsData = response.data.products;
         const productsArray = Object.keys(productsData).map((key) => ({
